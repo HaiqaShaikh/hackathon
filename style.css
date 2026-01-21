@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+.image-container {
+    position: relative; 
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    
+    
+  }
+ .overlay-text .text{
+    padding-right: 1200px !important;
+    padding-bottom: 50px;
+    
+  }
+
+.overlay-text  .text2{
+    padding-bottom: 50px;
+    padding-right: 1200px;
+    font-size: 50px;
+    font-weight: bolder;
+    
+
+  }
+
+  .overlay-text .text3{
+    font-size: 20px;
+    padding-bottom: 400px;
+  }
+
+  .img-fluid{
+    display: inline-block;
+  }
